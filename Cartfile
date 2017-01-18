@@ -1,0 +1,2 @@
+#git "file:///Users/olivierk/Projets/readium2/R2Streamer" "develop"
+github "artbookmagazine/r2-streamer-swift" "develop"

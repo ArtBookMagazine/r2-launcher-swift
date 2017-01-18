@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59501DA41E2F7A6B00D1B4BF /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966B93C1E2EE87200867AA9 /* AEXML.framework */; };
-		59501DA51E2F7A6B00D1B4BF /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966B93D1E2EE87200867AA9 /* GCDWebServers.framework */; };
-		59501DA61E2F7A6B00D1B4BF /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966B93E1E2EE87200867AA9 /* ObjectMapper.framework */; };
-		59501DA71E2F7AB400D1B4BF /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5966B93C1E2EE87200867AA9 /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		59501DA81E2F7AB400D1B4BF /* GCDWebServers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5966B93D1E2EE87200867AA9 /* GCDWebServers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		59501DA91E2F7AB400D1B4BF /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5966B93E1E2EE87200867AA9 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		59501E2B1E2FB5D500D1B4BF /* R2Streamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59501E281E2FB5BF00D1B4BF /* R2Streamer.framework */; };
+		59501E2D1E2FBC2200D1B4BF /* R2Streamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59501E2C1E2FBC2200D1B4BF /* R2Streamer.framework */; };
+		59501E301E2FBD0200D1B4BF /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59501E2F1E2FBD0200D1B4BF /* ObjectMapper.framework */; };
 		5966B8FC1E2EC7A000867AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5966B8FB1E2EC7A000867AA9 /* AppDelegate.swift */; };
 		5966B8FE1E2EC7A000867AA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5966B8FD1E2EC7A000867AA9 /* ViewController.swift */; };
 		5966B9011E2EC7A000867AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5966B8FF1E2EC7A000867AA9 /* Main.storyboard */; };
@@ -27,20 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		59501E271E2FB5BF00D1B4BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59501E221E2FB5BF00D1B4BF /* R2Streamer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 59501DCD1E2FB0D700D1B4BF;
-			remoteInfo = R2Streamer;
-		};
-		59501E291E2FB5BF00D1B4BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59501E221E2FB5BF00D1B4BF /* R2Streamer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 59501DD61E2FB0D700D1B4BF;
-			remoteInfo = R2StreamerTests;
-		};
 		5966B90D1E2EC7A000867AA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5966B8F01E2EC7A000867AA9 /* Project object */;
@@ -50,24 +31,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		5966B9341E2ECCAB00867AA9 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				59501DA71E2F7AB400D1B4BF /* AEXML.framework in Embed Frameworks */,
-				59501DA81E2F7AB400D1B4BF /* GCDWebServers.framework in Embed Frameworks */,
-				59501DA91E2F7AB400D1B4BF /* ObjectMapper.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		59501E221E2FB5BF00D1B4BF /* R2Streamer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = R2Streamer.xcodeproj; path = ../R2Streamer/R2Streamer.xcodeproj; sourceTree = "<group>"; };
+		59501E2C1E2FBC2200D1B4BF /* R2Streamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = R2Streamer.framework; path = Carthage/Build/iOS/R2Streamer.framework; sourceTree = "<group>"; };
+		59501E2F1E2FBD0200D1B4BF /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		5966B8F81E2EC7A000867AA9 /* R2Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2Launcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5966B8FB1E2EC7A000867AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5966B8FD1E2EC7A000867AA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,10 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59501E2B1E2FB5D500D1B4BF /* R2Streamer.framework in Frameworks */,
-				59501DA41E2F7A6B00D1B4BF /* AEXML.framework in Frameworks */,
-				59501DA51E2F7A6B00D1B4BF /* GCDWebServers.framework in Frameworks */,
-				59501DA61E2F7A6B00D1B4BF /* ObjectMapper.framework in Frameworks */,
+				59501E301E2FBD0200D1B4BF /* ObjectMapper.framework in Frameworks */,
+				59501E2D1E2FBC2200D1B4BF /* R2Streamer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,19 +73,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		59501E231E2FB5BF00D1B4BF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59501E281E2FB5BF00D1B4BF /* R2Streamer.framework */,
-				59501E2A1E2FB5BF00D1B4BF /* R2StreamerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5966B8EF1E2EC7A000867AA9 = {
 			isa = PBXGroup;
 			children = (
-				59501E221E2FB5BF00D1B4BF /* R2Streamer.xcodeproj */,
 				5966B8FA1E2EC7A000867AA9 /* R2Launcher */,
 				5966B90F1E2EC7A000867AA9 /* R2LauncherTests */,
 				5966B8F91E2EC7A000867AA9 /* Products */,
@@ -167,6 +121,8 @@
 		5966B93B1E2EE87200867AA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59501E2F1E2FBD0200D1B4BF /* ObjectMapper.framework */,
+				59501E2C1E2FBC2200D1B4BF /* R2Streamer.framework */,
 				5966B93C1E2EE87200867AA9 /* AEXML.framework */,
 				5966B93D1E2EE87200867AA9 /* GCDWebServers.framework */,
 				5966B93E1E2EE87200867AA9 /* ObjectMapper.framework */,
@@ -184,7 +140,7 @@
 				5966B8F41E2EC7A000867AA9 /* Sources */,
 				5966B8F51E2EC7A000867AA9 /* Frameworks */,
 				5966B8F61E2EC7A000867AA9 /* Resources */,
-				5966B9341E2ECCAB00867AA9 /* Embed Frameworks */,
+				59501E2E1E2FBC6D00D1B4BF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -245,12 +201,6 @@
 			mainGroup = 5966B8EF1E2EC7A000867AA9;
 			productRefGroup = 5966B8F91E2EC7A000867AA9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 59501E231E2FB5BF00D1B4BF /* Products */;
-					ProjectRef = 59501E221E2FB5BF00D1B4BF /* R2Streamer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5966B8F71E2EC7A000867AA9 /* R2Launcher */,
@@ -258,23 +208,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		59501E281E2FB5BF00D1B4BF /* R2Streamer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = R2Streamer.framework;
-			remoteRef = 59501E271E2FB5BF00D1B4BF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		59501E2A1E2FB5BF00D1B4BF /* R2StreamerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = R2StreamerTests.xctest;
-			remoteRef = 59501E291E2FB5BF00D1B4BF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5966B8F61E2EC7A000867AA9 /* Resources */ = {
@@ -296,6 +229,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59501E2E1E2FBC6D00D1B4BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/R2Streamer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5966B8F41E2EC7A000867AA9 /* Sources */ = {
@@ -374,7 +325,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../R2StreamerLibrary/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -389,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +376,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../R2StreamerLibrary/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -434,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -446,8 +397,11 @@
 		5966B9161E2EC7A000867AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = R2Launcher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -460,8 +414,11 @@
 		5966B9171E2EC7A000867AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = R2Launcher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
